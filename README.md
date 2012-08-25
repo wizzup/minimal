@@ -9,9 +9,10 @@ Note: 'minimal' here doesn't mean bare minimum but mean minimum things you need 
 programming
 -----------
 
-| name        | description                    |
-|-------------|--------------------------------|
-| swig_python | python binding for c++ library |
+| name         | description                    |
+|--------------|--------------------------------|
+| swig_python  | python binding for c++ library |
+| boost_python | python binding for c++ library |
 
 documentation
 -----------
