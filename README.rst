@@ -9,19 +9,25 @@ Note: 'minimal' here doesn't mean bare minimum but mean minimum things you usall
 programming
 -----------
 
-name          description                   
-============  ==============================
-swig_python_  python binding for c++ library
-boost_python_ python binding for c++ library
+======================   ==============================
+name                     description                   
+======================   ==============================
+swig_python_             python binding for c++ library
+boost_python_            python binding for c++ library
+boost_program_options_   command line option parsing 
+======================   ==============================
 
 .. _swig_python: swig_python
 .. _boost_python: boost_python
+.. _boost_program_options: boost_program_options
 
 documentation
 -----------
 
-name          description                   
-============  ==============================
-latex_beamer_ presentation slide using Latex
+==============  ==============================
+name            description                   
+==============  ==============================
+latex_beamer_   presentation slide using Latex
+==============  ==============================
 
 .. _latex_beamer: latex_beamer
