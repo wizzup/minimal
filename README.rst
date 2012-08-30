@@ -17,9 +17,9 @@ boost_python_            python binding for c++ library
 boost_program_options_   command line option parsing 
 ======================   ==============================
 
-.. _swig_python: tree/master/swig_python
-.. _boost_python: tree/master/boost_python
-.. _boost_program_options: tree/master/boost_program_options
+.. _swig_python: minimal/tree/master/swig_python
+.. _boost_python: minimal/tree/master/boost_python
+.. _boost_program_options: minimal/tree/master/boost_program_options
 
 documentation
 -----------
@@ -30,4 +30,4 @@ name            description
 latex_beamer_   presentation slide using Latex
 ==============  ==============================
 
-.. _latex_beamer: tree/master/latex_beamer
+.. _latex_beamer: minimal/tree/master/latex_beamer
