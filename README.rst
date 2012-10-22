@@ -2,9 +2,9 @@
 wizzup's minimal
 ================
 
-minimal example of various things for faster starting
+Minimal example of various thing for faster starting up.
 
-Note: 'minimal' here doesn't mean bare minimum but mean minimum things you usally working on
+Note: 'minimal' here doesn't mean bare minimum but mean minimum things you usually working on, and there might be some bug
 
 programming
 -----------
