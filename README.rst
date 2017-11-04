@@ -16,7 +16,7 @@ autotools_               Using autotools
 boost_program_options_   Command line option parsing
 boost_python_            Python binding for C++ library
 haskell_quickcheck_      Haskell QuickCheck
-nix_stack_               Build stack project usint Nix
+nix_stack_               Build stack project using Nix
 opencv_python_           OpenCV using Python
 qt_python_               Qt using Python
 swig_python_             Python binding for C++ library
