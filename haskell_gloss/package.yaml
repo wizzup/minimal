@@ -1,0 +1,9 @@
+name:                gloss-project
+
+dependencies:
+- base
+- gloss
+
+executables:
+  gloss-project:
+    main:                Main.hs
