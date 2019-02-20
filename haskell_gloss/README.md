@@ -4,8 +4,12 @@
 
 To build and run
 
-    $ nix-shell --run 'stack build && stack exec gloss-project'
+```
+$ nix-shell --run 'cabal new-run gloss-project'
+```
 
 To get development env
 
-    $ nix-shell
+```
+$ nix-shell
+```

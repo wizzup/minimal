@@ -4,6 +4,9 @@ dependencies:
 - base
 - gloss
 
+ghc-options:
+  -rtsopts
+
 executables:
   gloss-project:
     main:                Main.hs
