@@ -19,6 +19,7 @@ haskell_gloss_           Gloss project
 haskell_quickcheck_      Haskell QuickCheck
 nix_stack_               Build stack project using Nix
 opencv_python_           OpenCV using Python
+pandoc_slide_            reveal.js slide from markdown
 qt_python_               Qt using Python
 swig_python_             Python binding for C++ library
 ======================   ==============================
@@ -30,6 +31,7 @@ swig_python_             Python binding for C++ library
 .. _haskell_quickcheck: haskell_quickcheck
 .. _nix_stack: nix_stack
 .. _opencv_python: opencv_python
+.. _pandoc_slide: pandoc_slide
 .. _qt_python: qt_python
 .. _swig_python: swig_python
 
