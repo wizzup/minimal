@@ -2,7 +2,9 @@ Makefile.in
 aclocal.m4
 autogen.sh
 autom4te.cache/
+autoscan.log
 build-aux/
 config.h.in
 configure
+configure.scan
 out/
