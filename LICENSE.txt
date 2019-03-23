@@ -1,4 +1,4 @@
-Copyright (c) 2012, Wisut Hantanong
+Copyright: Wisut Hantanong
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
