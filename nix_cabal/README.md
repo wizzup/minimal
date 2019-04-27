@@ -8,10 +8,13 @@ $ cabal init --minimal --package-name=hello-cabal --non-interactive
 $ cabal2nix --shell . > default.nix
 ```
 
-build using `nix-build`
+build and run using `nix-build`
 
 ```
 $ nix-build
+
+$ result/bin/hello
+"Hello"
 ```
 
 install using `nix-env`

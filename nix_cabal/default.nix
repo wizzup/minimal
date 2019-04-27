@@ -22,7 +22,7 @@ let
   variant = if doBenchmark then pkgs.haskell.lib.doBenchmark else pkgs.lib.id;
 
   drv = variant (haskellPackages.callPackage f {});
+  drvWithTools = pkgs.haskell.lib.addBuildDepends drv [ pkgs.cabal-install haskellPackages.doctest ];
 
 in
-
-  if pkgs.lib.inNixShell then drv.env else drv
+  if pkgs.lib.inNixShell then drvWithTools.env else drv
