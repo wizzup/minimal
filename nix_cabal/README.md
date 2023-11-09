@@ -1,24 +1,11 @@
 # hello
 
-crated using cabal and cabal2nix
+crated using cabal
 
 ```
 $ cabal init --minimal --package-name=hello-cabal --non-interactive
-
-$ cabal2nix --shell . > default.nix
 ```
 
-build and run using `nix-build`
+build and run using `nix build` and `nix run`
 
-```
-$ nix-build
-
-$ result/bin/hello
-"Hello"
-```
-
-install using `nix-env`
-
-```
-$ nix-env -i -f default.nix
-```
+get flake shell via `nix develop` and use cabal commands

@@ -1,10 +1,6 @@
-cabal-version:       2.4
+cabal-version:       3.8
 name:                hello
 version:             0.1.0.0
-author:              wisut hantanong
-maintainer:          wizzup@gmail.com
-build-type:          Simple
-extra-source-files:  README.md
 
 library
   hs-source-dirs:    src
@@ -13,9 +9,10 @@ library
   default-language:  Haskell2010
 
 executable           hello
-  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  ghc-options:       -Wall
   hs-source-dirs:    src
   main-is:           Main.hs
   build-depends:     base
                    , hello
+  other-modules:     Lib
   default-language:  Haskell2010
