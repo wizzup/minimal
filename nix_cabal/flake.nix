@@ -3,7 +3,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
-  nixConfig.bash-prompt-suffix = "🚀";
+  nixConfig.bash-prompt-suffix = "🔨";
   outputs = {
     self,
     nixpkgs,
