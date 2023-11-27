@@ -1,6 +1,7 @@
 {
   description = "bun : hello world";
   nixConfig.bash-prompt-suffix = "🔨";
+  nixConfig.sandbox = "relaxed";
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
 
@@ -26,9 +27,11 @@
         nativeBuildInputs = [bun];
         dontPatch = true;
         dontConfigure = true;
+        __noChroot = true;
 
         buildPhase = ''
-          make
+          bun install --no-progress
+          make hello
         '';
 
         installPhase = ''
